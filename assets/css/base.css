@@ -1,0 +1,18 @@
+/* Design tokens, reset, typography */
+:root{--bg:#FAF6EE;--surface:#F3ECDC;--ink:#2B2A1F;--mute:#6B6650;--line:#E3D9C2;--accent:#55693A;--accent-hover:#46592C;--gold:#B8861B;--gold-text:#85600F;--onaccent:#FBF8F0;--danger:#A63A22;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root{--bg:#15170F;--surface:#1E2116;--ink:#EFE8D6;--mute:#ABA690;--line:#34372A;--accent:#A5BD80;--accent-hover:#BBD196;--gold:#D4A83C;--gold-text:#D9B04F;--onaccent:#14180D;--danger:#F0937A}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 Manrope,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Literata,Georgia,serif;font-weight:400;margin:0}
+h1{font-size:clamp(38px,6vw,72px);line-height:1.06;letter-spacing:-.015em}
+h2{font-size:clamp(26px,3.4vw,36px);line-height:1.2}
+a{color:inherit}
+button,input,textarea,select{font:inherit;color:inherit}
+button{cursor:pointer}
+img{max-width:100%;display:block}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-text);font-weight:700;margin:0}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}

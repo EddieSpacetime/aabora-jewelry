@@ -1,0 +1,18 @@
+{
+ "companyName": "[COMPANY LEGAL NAME]",
+ "address": "[REGISTERED ADDRESS]",
+ "vatNumber": "[VAT NUMBER]",
+ "email": "[CONTACT EMAIL]",
+ "phone": "[PHONE]",
+ "paymentProvider": "Stripe",
+ "hostingProvider": "[HOSTING PROVIDER]",
+ "shippingTime": "[e.g. 5-10 working days]",
+ "shippingCost": "[SHIPPING COSTS]",
+ "shippingRegions": "[COUNTRIES YOU SHIP TO]",
+ "returnAddress": "[RETURN ADDRESS]",
+ "supervisoryAuthority": "Hellenic Data Protection Authority (www.dpa.gr)",
+ "governingLaw": "Greece",
+ "adrStatement": "[STATE WHETHER YOU PARTICIPATE IN OUT-OF-COURT DISPUTE RESOLUTION, AND WHICH BODY]",
+ "lastUpdated": "[DATE]",
+ "giftWrapPrice": 0
+}

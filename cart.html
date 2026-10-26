@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aabora</title>
+<meta name="description" content="Aabora: handmade jewelry. Gioielli artigianali. Χειροποίητα κοσμήματα.">
+<link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/images/logo/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body data-page="cart" data-root="" data-title="cart.title">
+<header id="site-header"></header>
+<main class="container narrow">
+  <h1 class="page-title" data-i18n="cart.title"></h1>
+  <div class="lines" id="cart-items"></div>
+  <div id="cart-summary" hidden>
+    <div class="giftbox">
+      <label><input type="checkbox" id="gift-wrap"> <span data-i18n="gift.wrap"></span> (<span id="wrap-price"></span>)</label>
+      <label><span data-i18n="gift.note"></span><textarea id="gift-note" rows="3" maxlength="240"></textarea></label>
+    </div>
+    <div class="total"><span data-i18n="cart.total"></span><span id="cart-total"></span></div>
+    <a class="cta" href="checkout.html" data-i18n="cart.checkout"></a>
+  </div>
+  <p><a href="shop.html" data-i18n="cart.continue"></a></p>
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/wishlist.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/legal.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

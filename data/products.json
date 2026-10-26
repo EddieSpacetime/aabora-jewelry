@@ -1,0 +1,154 @@
+[
+ {
+  "id": 1,
+  "category": "ring",
+  "price": 68,
+  "tone": "accent",
+  "name": {
+   "en": "Olive Band Ring",
+   "it": "Anello Ulivo",
+   "el": "Δαχτυλίδι Ελιά",
+   "ru": "Кольцо «Олива»"
+  },
+  "material": {
+   "en": "Recycled silver",
+   "it": "Argento riciclato",
+   "el": "Ανακυκλωμένο ασήμι",
+   "ru": "Переработанное серебро"
+  },
+  "image": "assets/images/products/placeholder-1.svg"
+ },
+ {
+  "id": 2,
+  "category": "ring",
+  "price": 84,
+  "tone": "brass",
+  "name": {
+   "en": "Moonstone Ring",
+   "it": "Anello Pietra di Luna",
+   "el": "Δαχτυλίδι Φεγγαρόπετρα",
+   "ru": "Кольцо с лунным камнем"
+  },
+  "material": {
+   "en": "Silver, moonstone",
+   "it": "Argento, pietra di luna",
+   "el": "Ασήμι, φεγγαρόπετρα",
+   "ru": "Серебро, лунный камень"
+  },
+  "image": "assets/images/products/placeholder-2.svg"
+ },
+ {
+  "id": 3,
+  "category": "necklace",
+  "price": 96,
+  "tone": "brass",
+  "name": {
+   "en": "Wave Pendant",
+   "it": "Ciondolo Onda",
+   "el": "Μενταγιόν Κύμα",
+   "ru": "Кулон «Волна»"
+  },
+  "material": {
+   "en": "Brass, 45 cm chain",
+   "it": "Ottone, catena 45 cm",
+   "el": "Ορείχαλκος, αλυσίδα 45 εκ.",
+   "ru": "Латунь, цепочка 45 см"
+  },
+  "image": "assets/images/products/placeholder-3.svg"
+ },
+ {
+  "id": 4,
+  "category": "necklace",
+  "price": 112,
+  "tone": "accent",
+  "name": {
+   "en": "Pearl Thread Necklace",
+   "it": "Collana Filo di Perle",
+   "el": "Κολιέ Κλωστή Μαργαριταριών",
+   "ru": "Колье «Жемчужная нить»"
+  },
+  "material": {
+   "en": "Freshwater pearls",
+   "it": "Perle d’acqua dolce",
+   "el": "Μαργαριτάρια γλυκού νερού",
+   "ru": "Пресноводный жемчуг"
+  },
+  "image": "assets/images/products/placeholder-4.svg"
+ },
+ {
+  "id": 5,
+  "category": "earring",
+  "price": 54,
+  "tone": "accent",
+  "name": {
+   "en": "Drop Earrings",
+   "it": "Orecchini a Goccia",
+   "el": "Σκουλαρίκια Σταγόνα",
+   "ru": "Серьги-капли"
+  },
+  "material": {
+   "en": "Recycled silver",
+   "it": "Argento riciclato",
+   "el": "Ανακυκλωμένο ασήμι",
+   "ru": "Переработанное серебро"
+  },
+  "image": "assets/images/products/placeholder-5.svg"
+ },
+ {
+  "id": 6,
+  "category": "earring",
+  "price": 62,
+  "tone": "brass",
+  "name": {
+   "en": "Hammered Hoops",
+   "it": "Cerchi Martellati",
+   "el": "Σφυρήλατοι Κρίκοι",
+   "ru": "Кованые серьги-кольца"
+  },
+  "material": {
+   "en": "Hammered brass",
+   "it": "Ottone martellato",
+   "el": "Σφυρήλατος ορείχαλκος",
+   "ru": "Кованая латунь"
+  },
+  "image": "assets/images/products/placeholder-6.svg"
+ },
+ {
+  "id": 7,
+  "category": "bracelet",
+  "price": 72,
+  "tone": "accent",
+  "name": {
+   "en": "Twisted Cuff",
+   "it": "Bracciale Intrecciato",
+   "el": "Στριφτό Βραχιόλι",
+   "ru": "Витой браслет-манжета"
+  },
+  "material": {
+   "en": "Silver wire",
+   "it": "Filo d’argento",
+   "el": "Ασημένιο σύρμα",
+   "ru": "Серебряная проволока"
+  },
+  "image": "assets/images/products/placeholder-7.svg"
+ },
+ {
+  "id": 8,
+  "category": "bracelet",
+  "price": 58,
+  "tone": "brass",
+  "name": {
+   "en": "Knot Bracelet",
+   "it": "Bracciale con Nodo",
+   "el": "Βραχιόλι με Κόμπο",
+   "ru": "Браслет с узлом"
+  },
+  "material": {
+   "en": "Cord, brass bead",
+   "it": "Cordino, perla in ottone",
+   "el": "Κορδόνι, χάντρα ορείχαλκου",
+   "ru": "Шнур, латунная бусина"
+  },
+  "image": "assets/images/products/placeholder-8.svg"
+ }
+]

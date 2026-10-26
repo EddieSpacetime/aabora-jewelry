@@ -1,0 +1,19 @@
+{
+  "_help": "Fill in before taking real orders. countries: two-letter codes you ship to, e.g. [\"GR\",\"IT\",\"CY\"]. amount: shipping price in euro (0 = free). freeOver: order value (euro) above which shipping is free, or null. minDays/maxDays: optional working days estimate. The same rates apply to every listed country.",
+  "countries": ["GR", "IT", "CY"],
+  "freeOver": 50,
+  "rates": [
+    {
+      "name": {
+        "en": "Standard shipping",
+        "it": "Spedizione standard",
+        "el": "Τυπική αποστολή",
+        "ru": "Стандартная доставка"
+      },
+      "amount": 4.99,
+      "minDays": 3,
+      "maxDays": 5
+    }
+  ]
+}
+
