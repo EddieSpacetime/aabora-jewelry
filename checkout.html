@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aabora</title>
+<meta name="description" content="Aabora: handmade jewelry. Gioielli artigianali. Χειροποίητα κοσμήματα.">
+<link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/images/logo/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body data-page="checkout" data-root="" data-title="checkout.title">
+<header id="site-header"></header>
+<main class="container">
+  <h1 class="page-title" data-i18n="checkout.title"></h1>
+  <div class="checkout">
+    <form id="checkout-form">
+      <p data-i18n="checkout.stripeNote"></p>
+      <label class="consent"><input type="checkbox" name="consent" required> <span data-i18n="checkout.agree"></span> <a href="legal/terms.html" data-i18n="footer.terms"></a>, <a href="legal/privacy-policy.html" data-i18n="footer.privacy"></a></label>
+      <button class="cta" type="submit" data-i18n="checkout.pay"></button>
+      <p class="note" id="checkout-note" role="status"></p>
+    </form>
+    <div class="panel lines">
+      <h2 data-i18n="checkout.summary"></h2>
+      <div id="order-lines"></div>
+      <div class="total"><span data-i18n="cart.total"></span><span id="order-total"></span></div>
+    </div>
+  </div>
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/wishlist.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/legal.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
